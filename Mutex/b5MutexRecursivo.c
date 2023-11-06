@@ -79,6 +79,8 @@ int main(void){
 }
 
 // No Linux o mutex default nao eh recursivo e o lock em 2 mutex trava a aplicacao
+// Como podemos perceber, se ccompilarmos os programa apenas do jeito que ele esta, sem o mutex recursivo, obtemos um erro.
+// Este erro ocorre, pq na thread2
 
 
 
